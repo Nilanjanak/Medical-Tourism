@@ -398,3 +398,73 @@ img{
 .team-member h3 {
   color: #4c4c8c;
 }
+
+/* CSS for Contact Page */
+.contact-body, h1, p, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.contact-body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.contact-h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-input, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.contact-textarea {
+    resize: vertical;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6a11cb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #2575fc;
+}
